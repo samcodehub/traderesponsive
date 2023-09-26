@@ -304,7 +304,7 @@ font-size: 15px;
 }
 
 .section2 {
-height: 230vh;
+height: 240vh;
 width: 100vw;
 background-image: url(bg.png);
 background-repeat: no-repeat;
@@ -379,7 +379,7 @@ background: rgba(2, 0, 36, 0)!important;
 
 }
 .back p {
-font-size: 1rem;
+font-size: 14px;
 transform: rotateY(-180deg);
 display: none;
 text-align: start;
@@ -397,7 +397,7 @@ display: block;
 
 /***************************************** SECTION FIVE 5 FAQ**************************************/
 #FAQ {
-height: 160vh;
+height: 170vh;
 position: relative;
 
 }
@@ -407,7 +407,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100vw;
-height: 160vh;
+height: 170vh;
 object-fit: cover;
 z-index: -1;
 }
@@ -497,7 +497,9 @@ opacity: 1;
 
 }
 /***************************************** SECTION SIX 6 CONTACT **************************************/
-
+#contact{
+  padding: 50px 0px;
+}
 
 
 /***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
@@ -510,13 +512,15 @@ width: 90vw;
 height: 80vh;
 display:flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
 background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
 border-radius: 50px;
 }
 
 .newsletter img{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width:40vw;
 }
 
@@ -543,8 +547,8 @@ margin-bottom: 5px;
 /************************************ WHATSAPP ICON *************************************************/
 .whatsapp-icon {
   position: fixed!important;
-  padding-bottom: 40px;
-  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-right: 20px;
   font-size: 50px;
   color: #25d366;
   cursor: pointer;
@@ -608,7 +612,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 40vh;
+height: 50vh;
 width: 100vw
 }
 
@@ -650,7 +654,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100vw;
-height: 40vh;
+height: 50vh;
 object-fit: cover;
 z-index: -1;
 }
@@ -659,7 +663,7 @@ z-index: -1;
 
 /***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
 #systemtile{
-height: 70vh;
+height: 100vh;
 width: 100vw;
 }
 
@@ -731,7 +735,7 @@ width:70px;
 /***************************************** SECTION THREE 3 WHY *****************************/
 
 #why{
-height: 60vh;
+height: 80vh;
 padding: 0px 20px;
 }
 
@@ -742,8 +746,11 @@ font-size: 16px;
 /***************************************** SECTION THREE 3 WHY *************************/
 /***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
 #performance{
- height: 50vh;
+ height: 80vh;
   width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 .perform img {
@@ -769,7 +776,7 @@ font-size: 16px;
 }
 
 .section2 {
-height: 170vh;
+height: 220vh;
 width: 100vw;
 background-image: url(bg.png);
 background-repeat: no-repeat;
@@ -782,14 +789,14 @@ animation: moveBackground 5s infinite alternate;
 .cards {
 display: flex;
 flex-direction: column;
-gap: 100px;
+gap: 50px;
 }
 
 article {
 position: relative;
 perspective: 1000px;
 width: 80vw;
-height: 42vh;
+height: 60vh;
 background:#ffffff00;
 }
 
@@ -862,7 +869,7 @@ display: block;
 
 /***************************************** SECTION FIVE 5 FAQ**************************************/
 #FAQ {
-height: 100vh;
+height: 120vh;
 position: relative;
 display:flex;
 flex-direction: column;
@@ -873,14 +880,14 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100vw;
-height: 100vh;
+height: 120vh;
 object-fit: cover;
 z-index: -1;
 }
 
 #faq{
 height:40vh;
-width: 80vw;
+width: 70vw;
 }
 
 .accordion {
@@ -927,7 +934,7 @@ transition: max-height 0.2s ease-out;
 /***************************************** SECTION SIX 6 CONTACT **************************************/
 
 #ready{
-  height: 80vh;
+  height: 110vh;
 }
 
 .btnn {
@@ -968,7 +975,7 @@ opacity: 1;
 }
 /***************************************** SECTION SIX 6 CONTACT **************************************/
 #contact{
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -976,7 +983,7 @@ opacity: 1;
 }
 
 #contact .btnn{
-  width: 80vw;
+  width: 90vw;
   font-size: 1.1rem;
 }
 
@@ -988,9 +995,11 @@ height: 80vh;
 
 .newsletter{
 width: 90vw;
-height: 55vh;
+height: 70vh;
 display:flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
 background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
 border-radius: 50px;
 }
@@ -998,7 +1007,7 @@ border-radius: 50px;
 .newsletter img{
   padding-top: 30px;
   padding-bottom: 30px;
-  width:45vw;
+  width:30vw;
 }
 
 .newsletter p{
@@ -1087,7 +1096,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 40vh;
+height: 50vh;
 width: 100vw
 }
 
@@ -1129,7 +1138,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100vw;
-height: 40vh;
+height: 50vh;
 object-fit: cover;
 z-index: -1;
 }
@@ -1138,7 +1147,7 @@ z-index: -1;
 
 /***************************************** SECTION TWO 2 STRATEGIES SYSTEM TILES**************************/
 #systemtile{
-height: 60vh;
+height: 100vh;
 width: 100vw;
 }
 
@@ -1210,7 +1219,7 @@ width:100px;
 /***************************************** SECTION THREE 3 WHY *****************************/
 
 #why{
-height: 50vh;
+height: 80vh;
 padding: 0px 20px;
 }
 
@@ -1221,7 +1230,7 @@ font-size: 18px;
 /***************************************** SECTION THREE 3 WHY *************************/
 /***************************************** SECTION SIX 6 STRATEGIES PERFORMANCE*************************/
 #performance{
- height: 40vh;
+ height: 80vh;
   width: 100vw;
 }
 
@@ -1248,7 +1257,7 @@ font-size: 18px;
 }
 
 .section2 {
-height: 160vh;
+height: 220vh;
 width: 100vw;
 background-image: url(bg.png);
 background-repeat: no-repeat;
@@ -1261,14 +1270,14 @@ animation: moveBackground 5s infinite alternate;
 .cards {
 display: flex;
 flex-direction: column;
-gap: 100px;
+gap: 50px;
 }
 
 article {
 position: relative;
 perspective: 1000px;
-width: 80vw;
-height: 44vh;
+width: 60vw;
+height: 60vh;
 background:#ffffff00;
 }
 
@@ -1323,7 +1332,7 @@ background: rgba(2, 0, 36, 0)!important;
 
 }
 .back p {
-font-size: 1.5rem;
+font-size: 1.1rem;
 transform: rotateY(-180deg);
 display: none;
 text-align: start;
@@ -1341,7 +1350,7 @@ display: block;
 
 /***************************************** SECTION FIVE 5 FAQ**************************************/
 #FAQ {
-height: 100vh;
+height: 200vh;
 position: relative;
 display:flex;
 flex-direction: column;
@@ -1352,13 +1361,13 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100vw;
-height: 100vh;
+height: 200vh;
 object-fit: cover;
 z-index: -1;
 }
 
 #faq{
-height:50vh;
+height:80vh;
 width: 80vw;
 }
 
@@ -1371,7 +1380,7 @@ width: 100%;
 border: none;
 text-align: left;
 outline: none;
-font-size: 18px;
+font-size: 20px;
 transition: 0.4s;
 
 }
@@ -1406,7 +1415,10 @@ transition: max-height 0.2s ease-out;
 /***************************************** SECTION SIX 6 CONTACT **************************************/
 
 #ready{
-  height: 65vh;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnn {
@@ -1447,7 +1459,7 @@ opacity: 1;
 }
 /***************************************** SECTION SIX 6 CONTACT **************************************/
 #contact{
-  height: 30vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1455,21 +1467,23 @@ opacity: 1;
 }
 
 #contact .btnn{
-  width: 50vw;
-  font-size: 2rem;
+  
+  font-size: 1.5rem;
 }
 
 
 /***************************************** SECTION SEVEN 7 NEWSLETTER**************************************/
 #newsletter{
-height: 60vh;
+height: 80vh;
 }
 
 .newsletter{
 width: 90vw;
 height: 50vh;
 display:flex;
-flex-direction: column;
+flex-direction: row;
+align-items: center;
+justify-content: center;
 background-image: linear-gradient(171.8deg, rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6%);
 border-radius: 50px;
 }
@@ -1477,13 +1491,13 @@ border-radius: 50px;
 .newsletter img{
   padding-top: 30px;
   padding-bottom: 30px;
-  width:45vw;
+  width:40vw;
 }
 
 .newsletter p{
   font-size: 1.4rem;
   padding-bottom: 10px;
-  width:90vw;
+  
 }
 
 
